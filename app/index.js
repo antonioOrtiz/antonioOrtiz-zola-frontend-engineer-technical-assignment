@@ -19,7 +19,10 @@ function Index() {
               <header id="main-header">CYNTHIA & WILLIAM</header>
               <div id="couple-image">
                 <div id="getting-married-header">
-                  <h1> WE’RE GETTING MARRIED!</h1>
+                  <h1>
+                    {' '}
+                    WE’RE GETTING <br />MARRIED!
+                  </h1>
                 </div>
               </div>
             </div>

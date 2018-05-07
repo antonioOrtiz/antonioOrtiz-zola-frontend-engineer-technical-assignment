@@ -20,33 +20,14 @@ body {
 // Header styles
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
-h1 {
-  font-size: 50px;
-  letter-spacing: 4px;
-}
-
 .preheader {
-  margin: 0px;
-  ul {
-    margin: 0px 45px 32px;
-    list-style: none;
-  }
-  li {
-    float: left;
-    padding-right: 40px;
-    font: {
-      size: 16px;
-      family: 'Josefin Sans', sans-serif;
-    }
-  }
-}
-
-.preheader ul li:last-child {
-  float: right;
+  display: none;
 }
 
 #main-header {
-  margin-bottom: 20px;
+  margin: 10px 0px 10px 10px;
+  font-size: 15px;
+  text-align: left;
 }
 
 header {
@@ -73,6 +54,10 @@ h5 {
   }
 }
 
+#couple-story-header-container {
+  margin-top: 50px;
+}
+
 .couple-story-header {
   color: white;
   font-size: 2.5em;
@@ -89,7 +74,7 @@ h5 {
 }
 
 #getting-married-header {
-  padding-top: 70px;
+  padding-top: 30%;
   h1 {
     text-align: center;
     font-size: 2em;
@@ -104,10 +89,6 @@ h5 {
 
 // Paragraph, images, misc
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-
-#couple-story-header-container {
-  margin-top: 50px;
-}
 
 .couple-story-paragraph {
   font: {
@@ -156,6 +137,35 @@ hr {
     margin-left: 0%;
   }
 
+  .preheader {
+    display: block;
+    margin: 0px;
+    ul {
+      padding: 0;
+      margin: 0px 0px 32px 0px;
+      list-style: none;
+    }
+    li {
+      float: left;
+      padding: 0px 0px 0 30px;
+      font: {
+        size: 16px;
+        family: 'Josefin Sans', sans-serif;
+      }
+    }
+  }
+
+  .preheader ul li:last-child {
+    padding-right: 30px;
+    float: right;
+  }
+
+  #main-header {
+    font-size: 70px;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
   #couple-story-header-container {
     margin-top: 150px;
   }
@@ -180,16 +190,15 @@ hr {
   }
 
   #getting-married-header {
+    padding-top: 30%;
     h1 {
-      text-align: center;
-      font-size: 3em;
-      margin-top: 5%;
+      font-size: 2.75em;
     }
   }
 
   .palmier1-white {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     height: 77.78px;
   }
   .spacer {
@@ -198,7 +207,19 @@ hr {
   }
 }
 
-/* Larger than Desktop HD */
+/* Larger than tablet */
+@media (min-width: 750px) {
+  #getting-married-header {
+    h1 {
+      font-size: 4em;
+    }
+  }
+}
 
-@media (max-width: 1280px) {
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
 }
