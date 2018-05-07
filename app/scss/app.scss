@@ -75,6 +75,7 @@ h5 {
 
 .couple-story-header {
   color: white;
+  font-size: 2.5em;
 }
 
 #couple-image {
@@ -87,8 +88,13 @@ h5 {
   position: relative;
 }
 
-#getting-married {
-  display: none;
+#getting-married-header {
+  padding-top: 70px;
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+  }
 }
 
 .couple-story-bg {
@@ -98,6 +104,10 @@ h5 {
 
 // Paragraph, images, misc
 //––––––––––––––––––––––––––––––––––––––––––––––––––
+
+#couple-story-header-container {
+  margin-top: 50px;
+}
 
 .couple-story-paragraph {
   font: {
@@ -125,6 +135,8 @@ h5 {
 
 hr {
   width: 250px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 // Mobile first queries
@@ -138,9 +150,20 @@ hr {
   .one-half.column {
     width: 45%;
   }
+
   .column,
   .columns {
     margin-left: 0%;
+  }
+
+  #couple-story-header-container {
+    margin-top: 150px;
+  }
+
+  .left-border {
+    border-left: solid 1px white;
+    width: 100%;
+    margin: 100px 0;
   }
 
   .couple-story-paragraph {
@@ -149,23 +172,18 @@ hr {
       size: 19px;
     }
     color: white;
-    border-left: solid 1px white;
     line-height: 28px;
     letter-spacing: 1px;
     text-align: center;
     height: 100%;
-    padding: 0 7%;
+    padding: 5% 10%;
   }
 
-  #getting-married {
-    position: absolute;
-
-    display: block;
-
+  #getting-married-header {
     h1 {
-      margin-top: 75px;
       text-align: center;
-      color: white;
+      font-size: 3em;
+      margin-top: 5%;
     }
   }
 

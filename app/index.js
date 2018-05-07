@@ -18,7 +18,7 @@ function Index() {
               </div>
               <header id="main-header">CYNTHIA & WILLIAM</header>
               <div id="couple-image">
-                <div id="getting-married">
+                <div id="getting-married-header">
                   <h1> WE’RE GETTING MARRIED!</h1>
                 </div>
               </div>
@@ -30,39 +30,46 @@ function Index() {
         <div className="container couple-story-bg">
           <div className="row">
             <div className="one-half column">
-              <img className=" palmier1-white" src="../../assets/Palmier1-White.png" alt="palmier1-white" />
-              <div className="spacer" />
+              <div id="couple-story-header-container">
+                <img className=" palmier1-white" src="../../assets/Palmier1-White.png" alt="palmier1-white" />
+                <div className="spacer" />
+                <header className="couple-story-header">HOW WE MET </header>
+                <h5>3.05.17</h5>
+              </div>
             </div>
             <div className="one-half column">
-              <header className="couple-story-header">HOW WE MET </header>
-              <h5>3.05.17</h5>
-              <p className="couple-story-paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra dolor sit amet dui finibus, vitae
-                sagittis dolor suscipit. Aenean accumsan mollis lacus sed sagittis. Praesent lorem urna, e!citur nec
-                enim in, pretium hendrerit justo. Morbi mollis, enim ut sagittis tempus, arcu nisi finibus magna, non
-                ultrices arcu elit sed enim. Suspendisse sit amet nisi quis felis tristique ultrices sed quis est. Nulla
-                accumsan tincidunt sollicitudin. Maecenas scelerisque volutpat enim non venenatis. Praesent commodo.
-              </p>
-              <hr />
+              <div className="left-border">
+                <p className="couple-story-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra dolor sit amet dui finibus,
+                  vitae sagittis dolor suscipit. Aenean accumsan mollis lacus sed sagittis. Praesent lorem urna, e!citur
+                  nec enim in, pretium hendrerit justo. Morbi mollis, enim ut sagittis tempus, arcu nisi finibus magna,
+                  non ultrices arcu elit sed enim.
+                </p>
+                <hr />
+              </div>
             </div>
           </div>
         </div>
         <div className="container couple-story-bg">
           <div className="row">
             <div className="one-half column">
-              <img className=" palmier1-white" src="../../assets/Palmier1-White.png" alt="palmier1-white" />
-              <div className="spacer" />
+              <div id="couple-story-header-container">
+                <img className=" palmier1-white" src="../../assets/Palmier1-White.png" alt="palmier1-white" />
+                <div className="spacer" />
+                <header className="couple-story-header">THE PROPOSAL</header>
+                <h5>3.05.17</h5>
+              </div>
             </div>
             <div className="one-half column">
-              <header className="couple-story-header">THE PROPOSAL</header>
-              <h5>3.05.17</h5>
-              <p className="couple-story-paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra dolor sit amet dui finibus, vitae
-                sagittis dolor suscipit. Aenean accumsan mollis lacus sed sagittis. Praesent lorem urna, e!citur nec
-                enim in, pretium hendrerit justo. Morbi mollis, enim ut sagittis tempus, arcu nisi finibus magna, non
-                ultrices arcu elit sed enim. Suspendisse sit amet nisi quis felis tristique ultrices sed quis est. Nulla
-                accumsan tincidunt sollicitudin. Maecenas scelerisque volutpat enim non venenatis. Praesent commodo.
-              </p>
+              <div className="left-border">
+                <p className="couple-story-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra dolor sit amet dui finibus,
+                  vitae sagittis dolor suscipit. Aenean accumsan mollis lacus sed sagittis. Praesent lorem urna, e!citur
+                  nec enim in, pretium hendrerit justo. Morbi mollis, enim ut sagittis tempus, arcu nisi finibus magna,
+                  non ultrices arcu elit sed enim.
+                </p>
+                <hr />
+              </div>
             </div>
           </div>
         </div>
