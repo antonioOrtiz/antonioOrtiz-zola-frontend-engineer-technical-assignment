@@ -4,29 +4,70 @@ import './scss/app.scss';
 
 function Index() {
   return (
-    <form>
-      <div className="row">
-        <div className="six columns">
-          <label for="exampleEmailInput">Your email</label>
-          <input className="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput" />
+    <div>
+      <section className="">
+        <div className="container">
+          <div className="row">
+            <div className="tweleve columns">
+              <div className="preheader">
+                <ul>
+                  <li>MARCH 30, 2017</li>
+                  <li>MEMPHIS</li>
+                  <li>#CYNTHIAANDWILLIAM</li>
+                </ul>
+              </div>
+              <header id="main-header">CYNTHIA & WILLIAM</header>
+              <div id="couple-image">
+                <div id="getting-married">
+                  <h1> WE’RE GETTING MARRIED!</h1>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="six columns">
-          <label for="exampleRecipientInput">Reason for contacting</label>
-          <select className="u-full-width" id="exampleRecipientInput">
-            <option value="Option 1">Questions</option>
-            <option value="Option 2">Admiration</option>
-            <option value="Option 3">Can I get your number?</option>
-          </select>
+      </section>
+      <section className=" ">
+        <div className="container couple-story-bg">
+          <div className="row">
+            <div className="one-half column">
+              <img className=" palmier1-white" src="../../assets/Palmier1-White.png" alt="palmier1-white" />
+              <div className="spacer" />
+            </div>
+            <div className="one-half column">
+              <header className="couple-story-header">HOW WE MET </header>
+              <h5>3.05.17</h5>
+              <p className="couple-story-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra dolor sit amet dui finibus, vitae
+                sagittis dolor suscipit. Aenean accumsan mollis lacus sed sagittis. Praesent lorem urna, e!citur nec
+                enim in, pretium hendrerit justo. Morbi mollis, enim ut sagittis tempus, arcu nisi finibus magna, non
+                ultrices arcu elit sed enim. Suspendisse sit amet nisi quis felis tristique ultrices sed quis est. Nulla
+                accumsan tincidunt sollicitudin. Maecenas scelerisque volutpat enim non venenatis. Praesent commodo.
+              </p>
+              <hr />
+            </div>
+          </div>
         </div>
-      </div>
-      <label for="exampleMessage">Message</label>
-      <textarea className="u-full-width" placeholder="Hi Dave …" id="exampleMessage" />
-      <label className="example-send-yourself-copy">
-        <input type="checkbox" />
-        <span className="label-body">Send a copy to yourself</span>
-      </label>
-      <input className="button-primary" type="submit" value="Submit" />
-    </form>
+        <div className="container couple-story-bg">
+          <div className="row">
+            <div className="one-half column">
+              <img className=" palmier1-white" src="../../assets/Palmier1-White.png" alt="palmier1-white" />
+              <div className="spacer" />
+            </div>
+            <div className="one-half column">
+              <header className="couple-story-header">THE PROPOSAL</header>
+              <h5>3.05.17</h5>
+              <p className="couple-story-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra dolor sit amet dui finibus, vitae
+                sagittis dolor suscipit. Aenean accumsan mollis lacus sed sagittis. Praesent lorem urna, e!citur nec
+                enim in, pretium hendrerit justo. Morbi mollis, enim ut sagittis tempus, arcu nisi finibus magna, non
+                ultrices arcu elit sed enim. Suspendisse sit amet nisi quis felis tristique ultrices sed quis est. Nulla
+                accumsan tincidunt sollicitudin. Maecenas scelerisque volutpat enim non venenatis. Praesent commodo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   );
 }
 

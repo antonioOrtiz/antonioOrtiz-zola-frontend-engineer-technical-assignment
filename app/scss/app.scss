@@ -1,5 +1,186 @@
 @import 'node_modules/skeleton-scss/scss/skeleton.scss';
 
+// Skeleton Container override
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+// Page styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
 body {
-  background: green;
+  background: white;
+  font-family: 'Libre Baskerville', serif;
+  weight: regular;
+}
+
+// Header styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+
+.preheader {
+  margin: 0px;
+  ul {
+    margin: 0px 45px 32px;
+    list-style: none;
+  }
+  li {
+    float: left;
+    padding-right: 40px;
+    font: {
+      size: 16px;
+      family: 'Josefin Sans', sans-serif;
+    }
+  }
+}
+
+.preheader ul li:last-child {
+  float: right;
+}
+
+#main-header {
+  margin-bottom: 20px;
+}
+
+header {
+  margin-top: 0;
+  padding: 0;
+  font-size: 42px;
+  letter-spacing: 0;
+  clear: both;
+  text-align: center;
+}
+
+.subhead,
+h5 {
+  font: {
+    style: regular;
+    size: 16px;
+  }
+  color: white;
+
+  letter-spacing: 0;
+  text: {
+    align: center;
+    transform: lowercase;
+  }
+}
+
+.couple-story-header {
+  color: white;
+}
+
+#couple-image {
+  background: url('../../assets/couple.png') no-repeat;
+  padding-bottom: 54.6875%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 0;
+  background-size: contain;
+  position: relative;
+}
+
+#getting-married {
+  display: none;
+}
+
+.couple-story-bg {
+  background-color: #6cb35d;
+  height: 100%;
+}
+
+// Paragraph, images, misc
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.couple-story-paragraph {
+  font: {
+    family: 'Josefin Sans', sans-serif;
+    size: 19px;
+  }
+  color: white;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+  height: 100%;
+  padding: 0 7%;
+}
+
+.palmier1-white {
+  display: none;
+  max-width: 118px;
+  height: 0px;
+}
+
+.spacer {
+  display: block;
+  max-width: 118px;
+}
+
+hr {
+  width: 250px;
+}
+
+// Mobile first queries
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+@media only screen and (min-width: 550px) {
+  hr {
+    display: none;
+  }
+
+  .one-half.column {
+    width: 45%;
+  }
+  .column,
+  .columns {
+    margin-left: 0%;
+  }
+
+  .couple-story-paragraph {
+    font: {
+      family: 'Josefin Sans', sans-serif;
+      size: 19px;
+    }
+    color: white;
+    border-left: solid 1px white;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    height: 100%;
+    padding: 0 7%;
+  }
+
+  #getting-married {
+    position: absolute;
+
+    display: block;
+
+    h1 {
+      margin-top: 75px;
+      text-align: center;
+      color: white;
+    }
+  }
+
+  .palmier1-white {
+    display: block;
+    margin: 0 auto;
+    height: 77.78px;
+  }
+  .spacer {
+    display: none;
+    height: 77.78px;
+  }
+}
+
+/* Larger than Desktop HD */
+
+@media (max-width: 1280px) {
 }
