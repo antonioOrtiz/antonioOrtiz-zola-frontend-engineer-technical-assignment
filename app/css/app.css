@@ -1,0 +1,42 @@
+// global
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+body {
+  background-color: #fcfcfc;
+}
+
+// Overides styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+.ui.container {
+  margin-top: 50px;
+}
+
+.ui.segment {
+  border: 2px solid black;
+}
+.ui.card {
+  width: 100%;
+}
+
+// Header styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.card__age {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.card__catergory {
+  font-size: 12px;
+  font-style: regular;
+}
+
+// Paragraph, images, misc
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Mobile first queries
+//––––––––––––––––––––––––––––––––––––––––––––––––––

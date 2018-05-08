@@ -20,6 +20,10 @@
       "react"
     ]
   },
+    "plugins": [
+      "transform-class-properties"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/antonioOrtiz/antonioOrtiz-zola-frontend-engineer-technical-assignment/issues"
   },
@@ -40,9 +44,10 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "node-sass": "^4.9.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "skeleton-scss": "^2.0.4"
+    "semantic-ui-react": "^0.80.0"
   }
 }

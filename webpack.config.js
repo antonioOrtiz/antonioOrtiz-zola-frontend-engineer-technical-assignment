@@ -14,14 +14,14 @@ var config = {
     rules: [
       { test: /\.(js)$/, use: 'babel-loader' },
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [{ loader: 'css-loader' }, { loader: 'sass-loader' }],
         }),
       },
       {
-        test: /\.(pdf|jpg|png|gif|svg|ico)$/,
+        test: /\.(pdf|jpg|png|gif|svg|ico|woff|woff2|eot|ttf|svg)$/,
         use: [{ loader: 'url-loader' }],
       },
     ],
