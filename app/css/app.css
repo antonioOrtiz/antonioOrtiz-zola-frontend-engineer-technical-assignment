@@ -10,8 +10,9 @@ ul {
   list-style-type: none;
 }
 
-input[type='radio'] {
-  margin: 0 10px 0 0px;
+input[type='radio'],
+input[type='checkbox'] {
+  margin: 0 5px 0 0px;
 }
 
 /* Overides styles
@@ -47,9 +48,34 @@ h2 {
   font-style: regular;
 }
 
-/* Paragraph, images, misc
+/* filter styles
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 */
+
+.circle {
+  position: relative;
+  border-radius: 50%;
+  top: 3px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+}
+
+.ui.segment.priority1 {
+  background: #ff7f50;
+}
+
+.ui.segment.priority2 {
+  background: #008000;
+}
+
+.ui.segment.priority3 {
+  background: #1e90ff;
+}
+
+.ui.segment.priority4 {
+  background: #663399;
+}
 
 /* Mobile first queries
 ––––––––––––––––––––––––––––––––––––––––––––––––––
